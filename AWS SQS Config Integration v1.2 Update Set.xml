@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-05-21 21:04:09">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>AWS SQS Config Integration v1.2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>758b73eadb825340e68af05e0f961975</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d52969d8db52db009c69f8231f9619e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_max_requests_per_poll</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_max_requests_per_poll" table="u_aws_config_sqs_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Max requests per poll&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;10&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_max_requests_per_poll&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_aws_config_sqs_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:30:04&lt;/sys_created_on&gt;&lt;sys_id&gt;535e2869db319f0072465f135e9619ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Max requests per poll&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_aws_config_sqs_integration_u_max_requests_per_poll&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-04-30 17:39:41&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-824019124</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>112969d8db52db009c69f8231f9619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Max requests per poll</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7df038e9f3319f005cf13bac77ee3e31</update_guid>
+<update_guid_history>7df038e9f3319f005cf13bac77ee3e31:-824019124,b781ef8e5df513801cfcbdb6228bff1e:-418978449,7df038e9f3319f005cf13bac77ee3e31:-824019124,6b3f64a91b319f00f750ae58b5378bd5:-1688425989,b4ce6c69c0319f00f52c5f2c6ae7039d:-942922803</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="AWS Config SQS Integration" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>AWS Config SQS Integration</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>AWS Config SQS Integrations</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>19ce6c69db319f0072465f135e9619ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS Config SQS Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2055657715</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>112969d8db52db009c69f8231f9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e5ceac69e1319f0039d4d2aafaf13801</update_guid>
+<update_guid_history>e5ceac69e1319f0039d4d2aafaf13801:-2055657715,f281af8efdf51380f1f18b3b8312114d:26034877,e5ceac69e1319f0039d4d2aafaf13801:-2055657715</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c9ce6c69db319f0072465f135e9619c3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_aws_config_sqs_integration</description><name>u_aws_config_sqs_integration</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>c9ce6c69db319f0072465f135e9619c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_c9ce6c69db319f0072465f135e9619c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1949501869</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>112969d8db52db009c69f8231f9619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c1ce6c69dd319f00dc476df6b580cde0</update_guid>
+<update_guid_history>c1ce6c69dd319f00dc476df6b580cde0:1949501869,6c91ef8e51f51380af7e973937f29bc3:-1878088415,c1ce6c69dd319f00dc476df6b580cde0:1949501869</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_78ce6c69db319f0072465f135e9619a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Cloud Management</name><order/><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>78ce6c69db319f0072465f135e9619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cloud Management</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_78ce6c69db319f0072465f135e9619a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:04</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-1078479273</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>11296d5cdb52db009c69f8231f961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>Cloud Management</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>49ce6c6918319f00de23d8dc2d69e1a9</update_guid>
+<update_guid_history>49ce6c6918319f00de23d8dc2d69e1a9:-1078479273,5291a3cef6f51380522f88ac3c67581d:-1881744482,49ce6c6918319f00de23d8dc2d69e1a9:-1078479273</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_active</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_active" table="u_aws_config_sqs_integration"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Active</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_active</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">boolean</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_aws_config_sqs_integration</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 18:57:22</sys_created_on><sys_id>ebb28d69db719f0072465f135e9619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_aws_config_sqs_integration_u_active</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 18:57:22</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>910921400</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>152969d8db52db009c69f8231f9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Active</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>27b2cd6914719f002cf77722b2452c54</update_guid>
+<update_guid_history>27b2cd6914719f002cf77722b2452c54:910921400,5381af8e6af513803823b78cf4e0dcb7:-902932963,27b2cd6914719f002cf77722b2452c54:910921400</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_poll_frequency_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_poll_frequency" label="Poll frequency (minutes)" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_poll_frequency</element><help/><hint/><label>Poll frequency (minutes)</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Poll frequency (minutes)</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:11:23</sys_created_on><sys_id>c2562d75db3d9f0072465f135e96190f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Poll frequency (minutes)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_poll_frequency_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:11:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1653548456</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>152969d8db52db009c69f8231f9619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Poll frequency (minutes)</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>4b666d75763d9f0040ef3b7c85638562</update_guid>
+<update_guid_history>4b666d75763d9f0040ef3b7c85638562:-1653548456,8781af8eaff513806398cebc9db4a692:-1774842296,4b666d75763d9f0040ef3b7c85638562:-1653548456,46562d75333d9f009d004187f3d21517:1114275218</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_4132ab4adbb9df0072465f135e96194a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.sqsRegionRefQualifier&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;sqsRegionRefQualifier&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var sqsRegionRefQualifier = Class.create();
+sqsRegionRefQualifier.prototype = {
+	initialize: function() {
+	},
+	getRegionIDs: function(sys_id){
+		var IDs = [];
+		var relation = new GlideRecord("cmdb_rel_ci");
+		relation.addQuery('child',sys_id);
+		relation.query();
+		
+		while(relation.next()){
+			var logicalDatacenter = new GlideRecord("cmdb_ci_logical_datacenter");
+			logicalDatacenter.addQuery('sys_id',relation.getValue('parent'));
+			logicalDatacenter.query();
+			if(logicalDatacenter.next()){
+				IDs.push(logicalDatacenter.sys_id+'');
+			}
+		}
+		return IDs.toString();
+	},
+	type: 'sqsRegionRefQualifier'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.williams@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-02 19:51:45&lt;/sys_created_on&gt;&lt;sys_id&gt;4132ab4adbb9df0072465f135e96194a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;sqsRegionRefQualifier&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4132ab4adbb9df0072465f135e96194a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-02 19:52:34&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-636906859</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>152969d8db52db009c69f8231f9619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>sqsRegionRefQualifier</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>2382238a63b9df000da7a15a5247cb97</update_guid>
+<update_guid_history>2382238a63b9df000da7a15a5247cb97:-636906859,bf52238abab9df00f9317e0ab49e8241:-1927096147</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ecc_agent_script_include_c2e154d6db29570072465f135e9619d0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="ecc_agent_script_include"&gt;&lt;ecc_agent_script_include action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;name&gt;AWSSQSJSProbe&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AWSSQSJSProbe = Class.create();
+AWSSQSJSProbe.prototype = Object.extendsObject(AWSCloudAPIBase, {
+	
+	service: 'sqs',
+	apiVersion: '2012-11-05',
+	
+	initialize: function() {
+		this.location = probe.getParameter('location');
+		this.endpointURL = probe.getParameter('endpointURL');
+		this.deleteMessages = probe.getParameter('deleteMessages');
+		this.maxMessages = probe.getParameter('numberOfMessages');
+		this.maxRequests = probe.getParameter('maxRequests');
+		
+		var credential_id = probe.getParameter('credential_id');
+		
+		var credentialProvider = new  Packages.com.snc.commons.credentials.CredentialsProviderFactory.getCredentialsProvider();
+		var credential = credentialProvider.getCredentialByID(credential_id);
+		this.identity = credential.getAttributeByName('access_key');
+		this.credentials = credential.getAttributeByName('secret_key');
+	
+		var parameters = new Packages.java.util.HashMap();
+		var headers = new Packages.java.util.HashMap();
+		
+		parameters.put('Location',this.location);
+		parameters.put('Credentials',this.credentials);
+		parameters.put('Identity',this.identity);
+		parameters.put('EndpointURL',this.endpointURL);
+		
+		AWSCloudAPIBase.prototype.initialize.call(this, parameters, headers);
+	},
+	
+	receiveMessages: function(){
+		var action = "ReceiveMessage";
+		var actionParameters = {};
+			var messages = [];
+			var messageIDs;
+			
+			var deleteOnReceipt = this.deleteMessages;
+			
+			for (var requestCount=0;requestCount &lt; this.maxRequests;requestCount++){
+				messageIDs = [];
+				actionParameters.MaxNumberOfMessages = this.maxMessages;
+				
+				var response = this.executeAction(action, actionParameters);
+				
+				if(response.ReceiveMessageResult === null) {
+					break;
+				}
+				else {
+					if(Array.isArray(response.ReceiveMessageResult.Message)){
+						for (var index=0;index &lt; response.ReceiveMessageResult.Message.length;index++){
+							messageIDs.push({
+								'id':response.ReceiveMessageResult.Message[index].MessageId,
+								'receiptHandle':response.ReceiveMessageResult.Message[index].ReceiptHandle
+							});
+							messages.push(response.ReceiveMessageResult.Message[index].Body);
+						}
+					}
+					else{
+						messageIDs.push({
+							'id':response.ReceiveMessageResult.Message.MessageId,
+							'receiptHandle':response.ReceiveMessageResult.Message.ReceiptHandle
+						});
+						messages.push(response.ReceiveMessageResult.Message.Body);
+					}
+				}
+				
+				if(deleteOnReceipt){
+					var deleteResponse = this.deleteMessageBatch(messageIDs);
+				}
+			}
+			return JSON.stringify(messages);
+		},
+		
+		deleteMessageBatch: function(messageBatch){
+			var action = "DeleteMessageBatch";
+			var actionParameters = {};
+				
+				for(var index=0;index&lt;messageBatch.length;index++){
+					actionParameters["DeleteMessageBatchRequestEntry."+(index+1)+'.Id'] = messageBatch[index].id;
+					actionParameters["DeleteMessageBatchRequestEntry."+(index+1)+'.ReceiptHandle'] = messageBatch[index].receiptHandle;
+				}
+				
+				var response = this.executeAction(action,actionParameters);
+				return response;
+			},
+			
+			type: 'AWSSQSJSProbe'
+		});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;ecc_agent_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-20 13:03:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c2e154d6db29570072465f135e9619d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;64&lt;/sys_mod_count&gt;&lt;sys_name&gt;AWSSQSJSProbe&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;ecc_agent_script_include_c2e154d6db29570072465f135e9619d0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-02 19:46:35&lt;/sys_updated_on&gt;&lt;/ecc_agent_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>97975105</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>192969d8db52db009c69f8231f9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>AWSSQSJSProbe</target_name>
+<type>MID Server Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>c031ef0a4eb9df003d1cbc9cf7af20f3</update_guid>
+<update_guid_history>c031ef0a4eb9df003d1cbc9cf7af20f3:97975105,2a8a5306e0b9df001e73a68a4384fe69:-323709571,b19163cea6f51380e728627c0246bb61:682320113,c74b1f4ab9f51380f5fd6cbc173c2d9c:-323709571,c98ad34ae0f513803852f1cb2d779e17:1713666917,74d3defd527d9f002155b08ffe969e86:-681277449,eff3e9f1893d9f009d49a6562d5d0565:1580768119,e54229b1f53d9f0030ff7653891e39ef:-1540195205,dc7809b135f99f00e3dc03eccea65c94:1596886805,78f781b1bff99f00ae9ad62f8c741f1e:524703994,d9e7cd71fbf99f0084cd5c06f88fed15:-1388678933,967f21a56ff19f00f15129ed249814ed:-1318106128,d29ea1657bf19f005c48d84ecd9fa5cf:1747174634,8b3ded2599f19f00e92f2ce6c7fb94c9:983583856,ec3ded259ef19f00ace9c469110c7fc4:-732447390,14cba125bbf19f00d4cdceb826f47aca:-9380347,3dfce429c8319f00d12f4b7479b2cb96:1596886805,bdcac0e183fd5f003e2ade21626886ef:-1189174570,c0d8c061c5fd5f0081f298547d3c4ea8:-1933066049,cfc8406192fd5f000b4f553acee120bd:-183856169,8938c82105fd5f008f0011a4a986f356:-1933066049,e9b78421aefd5f00539d34de7433f4a3:1768679583,4de6c8ed23bd5f003fd6a6f31c2080f6:-1377578625,88e3c02d58bd5f00687e5c69a6245fce:1413807487,26c7fdec9d79db00a1ed34d1169cd364:-452633586,995f25a8e679db003baef33946bf35c4:1015176736,627611684d39db0028b82ce358036380:-452633586,01c215a42839db000473c545439dd020:-543660484,28a255a46139db00c317d8a944b4e40a:-957160515,cf5099247739db00a30c9352197da420:-16973673,a4614a5acd6d570015ca848627023fc3:-412629882,0701c65a7f6d570085d9142e7e449261:232139857,e6e04a5a4a6d5700c0224645f8ad50b9:231521716,2480c25a596d57006685d5232f0a326a:-1472287998,3b100e1a7c6d570001ca8d345c7f362e:2054239069,81bf351a6b6d5700bc78f191f8a763ad:1620805282,e3beb196376d5700a7944f42ebf7769d:1808824970,497c3196326d5700a8e9c03034dcb066:-1566835298,1efb3956206d57006f06a8704f43b37c:1899637182,271bb916fc6d5700ceb8993f16f5f02a:-802502758,4aca7dd2fe6d5700657205d2d5eda92f:342644154,8df1b55eef2d57005246dd22d3110482:1999781552,fca1315eb32d57001481eb0e1922b5ee:165104890,8421b51ed02d570043fcf6a7ffdca345:-575140915,0cd0f11ee32d57001e1da1b3008e3d5d:-290252888,8aec291a0d2d5700f57ea01d031a1e69:-1606969807,820be9d6df2d5700a0aa0ec922e716fc:-1893535971,05eaed56dd2d570014325702ec5a3a78:255134553,b988ad568e2d5700247831c21261fda7:1188876182,7b58a956962d570072f15538889bd9df:348825276,ea372d16b42d570067aece130df14f87:-1322540329,58a625d2292d5700bbf7ce8afd28128d:-678252562,ea72e552842d5700b4aa57ec3067cc22:1657520264,c9e1e9124c2d5700a9e9714fd62e1912:273052808,8ba1a912cc2d5700efeaa9abeae9b268:236023340,8a81a112cb2d5700700e08c79b5be854:1426657420,532121defce95700b2b1a75cab8cd5ff:618835802,a35e995ef8e957006f37313dfa6edb4c:230713466,f849d59a18e9570051d92337ac65da41:-1268913758,fc78195a5be957008dfcb77e3ddb9f4f:821749056,4cf7dd1a4ae9570036d1cbea4a82786a:-1915184853,8337551a57e95700381e6d64b76f1c91:1659968443,02f4199621e95700172ac8b5de90f648:-747672137,92a39dd283e957002f0ab96bca27ea56:2021198255,1ea5899a79a95700b7b62e9bbce16152:547549984,3881859a266957007758ca197bdc82c2:858869102,d07cdc9a2d295700b80091d71bb30363:1633133813,c2e1d4d666295700bc07ecf345b45993:1589074928</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_delete_messages_after_receipt_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_delete_messages_after_receipt" label="Delete messages after receipt" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_delete_messages_after_receipt</element><help/><hint/><label>Delete messages after receipt</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Delete messages after receipts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:06</sys_created_on><sys_id>d1ce6c69db319f0072465f135e9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete messages after receipt</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_delete_messages_after_receipt_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1317030679</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>192969d8db52db009c69f8231f9619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Delete messages after receipt</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>79ceac69dc319f009f744c70f8fe3036</update_guid>
+<update_guid_history>79ceac69dc319f009f744c70f8fe3036:1317030679,cb81af8e52f513808dd787293fa17b6e:-148885977,79ceac69dc319f009f744c70f8fe3036:1317030679</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_a5d0b0e9db319f0072465f135e961948</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_aws_config_sqs_integration"&gt;u_max_requests_per_pollVALCHANGES^u_max_requests_per_poll&amp;lt;1^EQ&lt;item endquery="false" field="u_max_requests_per_poll" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="u_max_requests_per_poll" goto="false" newquery="false" operator="&amp;lt;" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Validate Max Requests&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	if(current.u_max_requests_per_poll&lt;1){
+		current.u_max_requests_per_poll = 1;
+		gs.addInfoMessage('Max requests must be greater than 1.  Resetting to 1');
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:39:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a5d0b0e9db319f0072465f135e961948&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Max Requests&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_a5d0b0e9db319f0072465f135e961948&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 18:45:58&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a5d0b0e9db319f0072465f135e961948"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-745371508</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>192969d8db52db009c69f8231f9619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Validate Max Requests</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>96b9ce79817d9f00fb2b67296720b039</update_guid>
+<update_guid_history>96b9ce79817d9f00fb2b67296720b039:-745371508,899123ceb5f51380081985fac653c6eb:-299496546,96b9ce79817d9f00fb2b67296720b039:-745371508,10493d31de7d9f00a798caf20e67533a:1211607218,9f19b9310c7d9f0078184a941820b762:818804956,aaa1a56d5cb19f00addb6936677b3c15:1731279548,a1d0b0e944319f00121f6966b565d74b:2121256275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_scheduled_job</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_scheduled_job" table="u_aws_config_sqs_integration"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>readonly_clickthrough=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Scheduled job</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_scheduled_job</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_aws_config_sqs_integration</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference display_value="" name="sysauto_script">sysauto_script</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:00</sys_created_on><sys_id>0c6a6539db3d9f0072465f135e9619c8</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Scheduled job</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_aws_config_sqs_integration_u_scheduled_job</sys_update_name><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 18:28:58</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>147295615</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>1d2969d8db52db009c69f8231f9619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Scheduled job</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e1d58af51f7d9f0044c7a9ee926693e1</update_guid>
+<update_guid_history>e1d58af51f7d9f0044c7a9ee926693e1:147295615,9c91ef8e4df513809065680095f1eb85:1440601146,e1d58af51f7d9f0044c7a9ee926693e1:147295615,958ae539cf3d9f002706d3db05790007:1807090805,686a6539963d9f00543b3c780113e4d3:-1053708563</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_35c902b9db7d9f0072465f135e961988</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_aws_config_sqs_integration"&gt;u_poll_frequencyVALCHANGES^EQ&lt;item endquery="false" field="u_poll_frequency" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Poll Frequency&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AWSSQSProbeRunner();
+	probeRunner.updateJobInterval(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.williams@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-01 18:49:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;35c902b9db7d9f0072465f135e961988&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Poll Frequency&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_35c902b9db7d9f0072465f135e961988&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 18:51:10&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=35c902b9db7d9f0072465f135e961988"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>367817939</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>1d2969d8db52db009c69f8231f9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Update Poll Frequency</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>22ea8ab9a27d9f00cfb9e1e94d5f3cdc</update_guid>
+<update_guid_history>22ea8ab9a27d9f00cfb9e1e94d5f3cdc:367817939,c59123ce44f51380be9d5dffab9e21d3:-1167024284,22ea8ab9a27d9f00cfb9e1e94d5f3cdc:367817939,a78a82b9467d9f00d23ad640e1c8645c:-200280593</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_81ce6c69db319f0072465f135e9619b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>81ce6c69db319f0072465f135e9619b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_aws_config_sqs_integration">c9ce6c69db319f0072465f135e9619ac</sys_security_acl><sys_update_name>sys_security_acl_role_81ce6c69db319f0072465f135e9619b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><sys_user_role display_value="u_aws_config_sqs_integration_user" name="u_aws_config_sqs_integration_user">64ce2869db319f0072465f135e9619e5</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1918498222</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>1d2969d8db52db009c69f8231f9619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>85ce6c69c9319f00ebb29836bcc52eb4</update_guid>
+<update_guid_history>85ce6c69c9319f00ebb29836bcc52eb4:1918498222,ec91ef8e59f5138096540b9f9f19ceb8:-22440919,85ce6c69c9319f00ebb29836bcc52eb4:1918498222</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_64ce2869db319f0072465f135e9619e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_aws_config_sqs_integration_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:03</sys_created_on><sys_id>64ce2869db319f0072465f135e9619e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_64ce2869db319f0072465f135e9619e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:03</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1931824033</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>1d296d5cdb52db009c69f8231f961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>u_aws_config_sqs_integration_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>64ce286914319f00e8e9a897876a4de8</update_guid>
+<update_guid_history>64ce286914319f00e8e9a897876a4de8:-1931824033,3e91a3ce9ff513809ea7c2c07c9a4687:1897008105,64ce286914319f00e8e9a897876a4de8:-1931824033</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_aws_config_sqs_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_aws_config_sqs_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:30:05&lt;/sys_created_on&gt;&lt;sys_id&gt;c9ce6c69db319f0072465f135e9619e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_aws_config_sqs_integration&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_aws_config_sqs_integration_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-04-30 17:30:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-118823589</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>512969d8db52db009c69f8231f9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>adce6c69f0319f0093c4a84b250eebfd</update_guid>
+<update_guid_history>adce6c69f0319f0093c4a84b250eebfd:-118823589,7a81af8e60f51380ba2762adf270bb5c:-1515712298,adce6c69f0319f0093c4a84b250eebfd:-118823589</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_name" label="Name" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_name</element><help/><hint/><label>Name</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:06</sys_created_on><sys_id>11ce6c69db319f0072465f135e9619f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-946038849</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>512969d8db52db009c69f8231f9619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>25ce6c6947319f009f609e30f952a8ff</update_guid>
+<update_guid_history>25ce6c6947319f009f609e30f952a8ff:-946038849,4b81af8e63f51380a3caf56ca2c5fe8c:564131855,25ce6c6947319f009f609e30f952a8ff:-946038849</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_321a9d29dbb19f0072465f135e9619b6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.AWSSQSProbeRunner&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;AWSSQSProbeRunner&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AWSSQSProbeRunner = Class.create();
+AWSSQSProbeRunner.prototype = {
+	initialize: function() {
+	},
+	
+	runScheduledJob: function(awsConfigDefinitionID){
+		var awsConfigDefinitionGR = new GlideRecord('u_aws_config_sqs_integration');
+		if (!awsConfigDefinitionGR.get(awsConfigDefinitionID)){
+			gs.error("AWS SQS Probe Runner: No config definition found for id {0}",awsConfigDefinitionID);
+			return;
+		}
+		
+		if(awsConfigDefinitionGR.u_active == false){
+			gs.error("AWS SQS Probe Runner: Config Definition {0} not active",awsConfigDefinitionGR.u_name);
+			this.setJobActiveFlag(awsConfigDefinitionGR);
+			return;
+		}
+		this.runProbe(awsConfigDefinitionGR);
+	},
+	
+	createJob: function(awsConfigDefinitionGR){
+		var jobGR = new GlideRecord('sysauto_script');
+		jobGR.initialize();
+		jobGR.name = "AWS SQS Config Probe Scheduled Job: " + awsConfigDefinitionGR.getDisplayValue();
+		jobGR.active = awsConfigDefinitionGR.u_active;
+		jobGR.run_type = 'periodically';
+		jobGR.run_period.setDateNumericValue(awsConfigDefinitionGR.u_poll_frequency * 60000);
+		jobGR.run_start.setDisplayValue(gs.nowDateTime());
+		jobGR.script = 'var probeRunner = new AWSSQSProbeRunner();\n'
+						+ 'probeRunner.runScheduledJob("' + awsConfigDefinitionGR.sys_id + '");';
+		jobGR.insert();
+		
+		return jobGR;
+	},
+	
+	deleteJob: function(awsConfigDefinitionGR){
+		if(gs.nil(awsConfigDefinitionGR.u_scheduled_job)){
+			gs.error("AWS SQS Probe Runner: Job not found for deletion on {0}",awsConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = awsConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.deleteRecord();
+	},
+	
+	setJobActiveFlag: function(awsConfigDefinitionGR){
+		if(gs.nil(awsConfigDefinitionGR.u_scheduled_job)){
+			gs.error("AWS SQS Probe Runner: Job not found for activation/deactivation on {0}",awsConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = awsConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.active = awsConfigDefinitionGR.u_active;
+		jobGR.update();
+	},
+	
+	updateJobInterval: function(awsConfigDefinitionGR){
+		if(gs.nil(awsConfigDefinitionGR.u_scheduled_job)){
+			gs.error("AWS SQS Probe Runner: Job not found for interval update on {0}",awsConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = awsConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.run_period.setDateNumericValue(awsConfigDefinitionGR.u_poll_frequency * 60000);
+		jobGR.update();
+	},
+	
+	updateJobName: function(awsConfigDefinitionGR){
+		if(gs.nil(awsConfigDefinitionGR.u_scheduled_job)){
+			gs.error("AWS SQS Probe Runner: Job not found for name update on {0}",awsConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = awsConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.name = "AWS SQS Config Probe Scheduled Job: " + awsConfigDefinitionGR.getDisplayValue();
+		jobGR.update();
+	},
+	
+	runProbe: function(awsConfigDefinitionGR){
+		var region = awsConfigDefinitionGR.u_region.region.getValue();
+		var accountNumber = awsConfigDefinitionGR.u_credentials.account_id.getValue();
+		var queueName = awsConfigDefinitionGR.u_sqs_queue_name.getValue();
+		var deleteMessagesFlag = awsConfigDefinitionGR.u_delete_messages_after_receipt.toString();
+		var numberOfMessages = awsConfigDefinitionGR.u_max_messages_per_request.getValue();
+		var numberOfRequests = awsConfigDefinitionGR.u_max_requests_per_poll.getValue();
+		var credentialId = awsConfigDefinitionGR.u_credentials.discovery_credentials.getValue();
+		
+		var endpointURL = "https://sqs." + region + ".amazonaws.com/" + accountNumber + "/" + queueName;
+		
+		var probe = SncProbe.get('AWS-SQS-Config-JS');
+		probe.addParameter("credential_id",credentialId);
+		probe.addParameter("location",region);
+		probe.addParameter("deleteMessages",deleteMessagesFlag);
+		probe.addParameter("numberOfMessages",numberOfMessages);
+		probe.addParameter("maxRequests",numberOfRequests);
+		probe.addParameter("endpointURL",endpointURL);
+		
+		var msf = new MIDServerFinder();
+		msf.setCapabilities(["AWS"]);
+		
+		return probe.create(msf.getMIDServers()[0]);
+	},
+	
+	type: 'AWSSQSProbeRunner'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 20:41:32&lt;/sys_created_on&gt;&lt;sys_id&gt;321a9d29dbb19f0072465f135e9619b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;AWSSQSProbeRunner&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_321a9d29dbb19f0072465f135e9619b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 19:07:38&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1834320487</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>512969d8db52db009c69f8231f9619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>AWSSQSProbeRunner</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>b3ae8e3d877d9f00ef001bbad3916ede</update_guid>
+<update_guid_history>b3ae8e3d877d9f00ef001bbad3916ede:1834320487,069163ce74f51380c60319f238c185d4:1156005235,b3ae8e3d877d9f00ef001bbad3916ede:1834320487,f8ddc63d627d9f008c36a2a8a8b5c1e5:-2146565645,f32c0af9317d9f004009df6650af6668:-287509996,4cdb02f9f27d9f000727ce294e986d69:33761098,cb494a79b97d9f00f2847cfbc63a10f6:-460277695,b3290a79907d9f000185499128249b52:129556990,9c090a39047d9f00d08b35f12868980d:110472450,db47c639557d9f008efee4c0f2828451:242712049,05f64639917d9f009930258cd8428f38:25847525,f5b64ef5ef7d9f00c2ab68360f8835d8:407785031,25738e75bf7d9f00379db56f1d2715a0:-230130051,ce2f35358a7d9f00a653309b53ee62a5:336504063,fe0e35f1ea7d9f006266100ff46cb147:744789511,5824a535da3d9f002da41224e073aadf:965496968,3e3129b1d13d9f00568d10d0bc50362e:1501265922,d39ad16905b19f000ba714df5320a73f:-1724106318,a19ad169dab19f0006adec6d67a85a39:-1957945695</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>discovery_sensor_f389bd60dbb9db0072465f135e961913</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="discovery_sensor"&gt;&lt;discovery_sensor action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;agent/&gt;&lt;apply_defaults&gt;true&lt;/apply_defaults&gt;&lt;classification_type/&gt;&lt;coalesce/&gt;&lt;condition_script/&gt;&lt;data_option&gt;insert_update&lt;/data_option&gt;&lt;data_source/&gt;&lt;description/&gt;&lt;external_names/&gt;&lt;java_class/&gt;&lt;major_version&gt;1&lt;/major_version&gt;&lt;minor_version&gt;0&lt;/minor_version&gt;&lt;name&gt;SQS-ConfigSensor&lt;/name&gt;&lt;order/&gt;&lt;parent/&gt;&lt;reacts_to_probe display_value="AWS-SQS-Config-JS"&gt;1a535da4db39db0072465f135e961989&lt;/reacts_to_probe&gt;&lt;script&gt;&lt;![CDATA[new DiscoverySensor({
+    process: function(result) {
+        if (gs.nil(result.output))
+            return;
+		
+		var output = JSON.parse(result.output);
+		
+        for (var i=0;i&lt;output.length;i++){
+			var queryParamsStr = '';
+
+			var headers = {};
+			headers['x-amz-sns-message-type'] = '';
+			
+			var eventGr = new GlideRecord('sn_cmp_cloud_event');
+			eventGr.initialize();
+			eventGr.setValue('payload', output[i]);
+			eventGr.setValue('headers', global.JSON.stringify(headers));
+			eventGr.setValue('source', 'aws');
+			eventGr.setValue('query_params', queryParamsStr);
+			eventGr.insert();
+		}
+    },
+
+    type: "DiscoverySensor"
+});]]&gt;&lt;/script&gt;&lt;sensor_type&gt;Javascript&lt;/sensor_type&gt;&lt;sys_class_name&gt;discovery_sensor&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-27 20:30:49&lt;/sys_created_on&gt;&lt;sys_id&gt;f389bd60dbb9db0072465f135e961913&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;SQS-ConfigSensor&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;discovery_sensor_f389bd60dbb9db0072465f135e961913&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-16 21:11:46&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;data_source&lt;/type&gt;&lt;xml_root_node/&gt;&lt;/discovery_sensor&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1382793252</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>552969d8db52db009c69f8231f9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1636acb6aa60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>SQS-ConfigSensor</target_name>
+<type>Sensor</type>
+<update_domain>global</update_domain>
+<update_guid>94fa33aacb825340d8ac90b318aaf91c</update_guid>
+<update_guid_history>94fa33aacb825340d8ac90b318aaf91c:-1382793252,fa38372ac58253401b85cef7a4c5e8e6:-1361912185,947d06200af9db00134c39a379e2e5e6:-1737482074,359163ce4af51380816d06d9c01aee5b:-40985454,319163ce08f513808d0a4c508f34b44f:0,947d06200af9db00134c39a379e2e5e6:-1737482074,788cc6ec79b9db00018085e0e8d8a4e4:770844923,18b34668efb9db0020d14cd289606a8c:-346895996,df024ee4a5b9db00470dc188986036f0:-1478841705,f2fbf5e0dab9db00ccc67bbf56e00685:-2002117749,52bbf5e0b9b9db003536c46d46650b05:-1691126717,1b5bf1e013b9db0004d1fd00c3828dbf:-1068845961</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_credentials_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_credentials" label="AWS Account" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_credentials</element><help/><hint/><label>AWS Account</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>AWS Accounts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:06</sys_created_on><sys_id>15ce6c69db319f0072465f135e9619ec</sys_id><sys_mod_count>1</sys_mod_count><sys_name>AWS Account</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_credentials_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:48:35</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1232980671</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>552969d8db52db009c69f8231f9619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.AWS Account</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>9403786d04319f008a20468c356a402d</update_guid>
+<update_guid_history>9403786d04319f008a20468c356a402d:-1232980671,8f81af8e48f51380b723c53e28127368:-1798831983,9403786d04319f008a20468c356a402d:-1232980671,a5ceac69ed319f00997510ce191ab200:-79657228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_7b9ccaf9db7d9f0072465f135e9619d5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_aws_config_sqs_integration"&gt;u_scheduled_jobISEMPTY^EQ&lt;item endquery="false" field="u_scheduled_job" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Create Scheduled Job&lt;/name&gt;&lt;order&gt;99&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AWSSQSProbeRunner();
+	current.u_scheduled_job = probeRunner.createJob(current).sys_id;
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.williams@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-01 19:00:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7b9ccaf9db7d9f0072465f135e9619d5&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create Scheduled Job&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7b9ccaf9db7d9f0072465f135e9619d5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 21:03:43&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7b9ccaf9db7d9f0072465f135e9619d5"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1818309315</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>552969d8db52db009c69f8231f9619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1638483d91d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Create Scheduled Job</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>4b09e95c2152db0091c42e3328f0a0cb</update_guid>
+<update_guid_history>4b09e95c2152db0091c42e3328f0a0cb:1818309315,b5bd863d1b7d9f00fb4d9b2ed11e8049:1433238413,499123cef9f5138083130eaad641e7e5:-1152653927,b5bd863d1b7d9f00fb4d9b2ed11e8049:1433238413,665dc23db67d9f00867dccc3386fbe1a:1774124830,b9fc0ef9c77d9f0037bac8ec5b136754:-1698984532</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_region</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_region" table="u_aws_config_sqs_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Region&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_region&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_aws_config_sqs_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="cmdb_ci_logical_datacenter"&gt;cmdb_ci_logical_datacenter&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;javascript: &amp;#13;
+var ids = new sqsRegionRefQualifier().getRegionIDs(current.u_credentials+'');&amp;#13;
+&amp;#13;
+'sys_idIN' + ids; &lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:30:03&lt;/sys_created_on&gt;&lt;sys_id&gt;a2ede069db319f0072465f135e9619c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Region&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_aws_config_sqs_integration_u_region&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-02 19:51:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1599326536</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>592969d8db52db009c69f8231f9619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Region</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7c62238a8bb9df00eae7d2c655949e8f</update_guid>
+<update_guid_history>7c62238a8bb9df00eae7d2c655949e8f:-1599326536,8091ef8e71f51380b6e63982a45ce272:-2039130079,38eeb4e5f8719f001f896e62b1172e14:1055826722,cbaeb0e54f719f00a6169c8851157196:934054294,f501b8e936319f000e80235af2578049:229002001,b4ce6c6966319f00271c026ed24fbb83:-120422318</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_0afd0a3ddb7d9f0072465f135e9619a5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;true&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Delete Scheduled Job&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AWSSQSProbeRunner();
+	probeRunner.deleteJob(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.williams@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-01 19:05:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;0afd0a3ddb7d9f0072465f135e9619a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete Scheduled Job&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_0afd0a3ddb7d9f0072465f135e9619a5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 19:05:33&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0afd0a3ddb7d9f0072465f135e9619a5"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1985463477</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>592969d8db52db009c69f8231f9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Delete Scheduled Job</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>9d3eca3d1b7d9f00944c3c5f8b382389</update_guid>
+<update_guid_history>9d3eca3d1b7d9f00944c3c5f8b382389:-1985463477,419123ce9af51380234c5b6bfb8ee7b4:-2064550982,9d3eca3d1b7d9f00944c3c5f8b382389:-1985463477</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_4dce6c69db319f0072465f135e9619b9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>4dce6c69db319f0072465f135e9619b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_aws_config_sqs_integration">45ce6c69db319f0072465f135e9619b5</sys_security_acl><sys_update_name>sys_security_acl_role_4dce6c69db319f0072465f135e9619b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><sys_user_role display_value="u_aws_config_sqs_integration_user" name="u_aws_config_sqs_integration_user">64ce2869db319f0072465f135e9619e5</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1139155542</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>592969d8db52db009c69f8231f9619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>89ce6c6932319f00fc4f72b1c6dd20bb</update_guid>
+<update_guid_history>89ce6c6932319f00fc4f72b1c6dd20bb:-1139155542,2491ef8e83f513804e8c0f86f586b3c8:1214872613,89ce6c6932319f00fc4f72b1c6dd20bb:-1139155542</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_45deec69db319f0072465f135e9619d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="45deec69db319f0072465f135e9619d6" sys_domain="global" table="u_aws_config_sqs_integration" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>b06aa539db3d9f0072465f135e961907</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>346aa539db3d9f0072465f135e961907</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_active</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>b46aa539db3d9f0072465f135e961907</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_credentials</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>386aa539db3d9f0072465f135e961907</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_region</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>b86aa539db3d9f0072465f135e961907</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_sqs_queue_name</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>3c6aa539db3d9f0072465f135e961907</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>bc6aa539db3d9f0072465f135e961907</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_delete_messages_after_receipt</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>306aa539db3d9f0072465f135e961908</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_max_messages_per_request</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>b06aa539db3d9f0072465f135e961908</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_max_requests_per_poll</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>346aa539db3d9f0072465f135e961908</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_poll_frequency</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>b46aa539db3d9f0072465f135e961908</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>386aa539db3d9f0072465f135e961908</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_scheduled_job</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:03</sys_created_on><sys_id>b86aa539db3d9f0072465f135e961908</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_aws_config_sqs_integration" sys_domain="global" view="Default view">45deec69db319f0072465f135e9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_aws_config_sqs_integration</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>45deec69db319f0072465f135e9619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_45deec69db319f0072465f135e9619d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:22</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1318125893</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>59296d5cdb52db009c69f8231f961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>706aa539c83d9f00538367220f35250b</update_guid>
+<update_guid_history>706aa539c83d9f00538367220f35250b:1318125893,519163ce30f51380871e665035142408:-1519742789,706aa539c83d9f00538367220f35250b:1318125893,b96729b5593d9f0071309f75b9bc328d:289797891,0a562d75ef3d9f00d4d816197f6b7728:943034623,c4d201a99b719f00c926b42f3360c95a:-867647537,77b2cd694e719f00efbf17e30dc33c5a:1844350863,ca72c969c2719f005335dcec7d934db3:-293213546,c61fa0a932319f000bfe9505000a68d3:1604955678,76feec69c6319f00d202be8243f0089d:1861330838,ddde20a9f0319f0061b4e9e94551e304:1604955678,59deec69ce319f003acc82160968c5d8:771573037</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_max_messages_per_request</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_max_messages_per_request" table="u_aws_config_sqs_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Max messages per request&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;10&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_max_messages_per_request&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_aws_config_sqs_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:30:04&lt;/sys_created_on&gt;&lt;sys_id&gt;fe3e2469db319f0072465f135e9619a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Max messages per request&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_aws_config_sqs_integration_u_max_messages_per_request&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-04-30 17:39:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1117375416</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>5d2969d8db52db009c69f8231f9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Max messages per request</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>cfe038e901319f003c97be4cc279e328</update_guid>
+<update_guid_history>cfe038e901319f003c97be4cc279e328:1117375416,2381af8e69f513809a232265e05055f2:11555229,cfe038e901319f003c97be4cc279e328:1117375416,f92f24a963319f0032aa8ca8eacea50d:-577234859,fcce6c6978319f00c1d4792f65b73c98:988355495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_sqs_queue_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_sqs_queue_name" label="SQS queue name" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_sqs_queue_name</element><help/><hint/><label>SQS queue name</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>SQS queue names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 18:56:10</sys_created_on><sys_id>c272c969db719f0072465f135e961969</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SQS queue name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_sqs_queue_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 18:56:10</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>206512199</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>5d2969d8db52db009c69f8231f9619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.SQS queue name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c672c96967719f00a4097a1ddacba9af</update_guid>
+<update_guid_history>c672c96967719f00a4097a1ddacba9af:206512199,4f81af8e39f5138083eb38073f08cea3:689049623,c672c96967719f00a4097a1ddacba9af:206512199</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c9ce6c69db319f0072465f135e9619ac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_aws_config_sqs_integration</description><name>u_aws_config_sqs_integration</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:04</sys_created_on><sys_id>c9ce6c69db319f0072465f135e9619ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_c9ce6c69db319f0072465f135e9619ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:04</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-800642741</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>5d2969d8db52db009c69f8231f9619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c1ce6c69e0319f00f2403b4d474882b1</update_guid>
+<update_guid_history>c1ce6c69e0319f00f2403b4d474882b1:-800642741,e091ef8e07f5138036b264d6096e8fbc:-333265729,c1ce6c69e0319f00f2403b4d474882b1:-800642741</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>discovery_probe_parameter_9e659528db39db0072465f135e9619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="discovery_probe_parameter"><discovery_probe_parameter action="INSERT_OR_UPDATE"><active>true</active><name>script</name><probe display_value="SQS_JS">1a535da4db39db0072465f135e961989</probe><sys_class_name>discovery_probe_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-27 17:45:16</sys_created_on><sys_id>9e659528db39db0072465f135e9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>script</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>discovery_probe_parameter_9e659528db39db0072465f135e9619dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-27 17:45:16</sys_updated_on><value>var SQSProbe = new AWSSQSJSProbe(); SQSProbe.receiveMessages();</value><value_script/></discovery_probe_parameter></record_update>]]></payload>
+<payload_hash>55111757</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>912969d8db52db009c69f8231f9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>script</target_name>
+<type>Probe parameter</type>
+<update_domain>global</update_domain>
+<update_guid>5a75d528da39db00429ac162c270bd7a</update_guid>
+<update_guid_history>5a75d528da39db00429ac162c270bd7a:55111757,b19163ceadf513808342b6f93ea6584d:857926452,5a75d528da39db00429ac162c270bd7a:55111757</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_active_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_active" label="Active" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_active</element><help/><hint/><label>Active</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Active</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 18:57:22</sys_created_on><sys_id>abb28d69db719f0072465f135e9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_active_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 18:57:22</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-826388138</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>912969d8db52db009c69f8231f9619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Active</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e3b2cd69ec719f006cd34f47fdcca856</update_guid>
+<update_guid_history>e3b2cd69ec719f006cd34f47fdcca856:-826388138,4381af8e33f513809924ff368ca32c63:541347078,e3b2cd69ec719f006cd34f47fdcca856:-826388138</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_61be027ddb7d9f0072465f135e96195a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_aws_config_sqs_integration"&gt;u_nameVALCHANGES^EQ&lt;item endquery="false" field="u_name" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Job Name&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AWSSQSProbeRunner();
+	probeRunner.updateJobName(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.williams@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-01 19:08:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;61be027ddb7d9f0072465f135e96195a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Job Name&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_61be027ddb7d9f0072465f135e96195a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 19:09:26&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=61be027ddb7d9f0072465f135e96195a"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1382949421</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>912969d8db52db009c69f8231f9619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Update Job Name</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>521fc27dda7d9f0031fbc201a6e59e18</update_guid>
+<update_guid_history>521fc27dda7d9f0031fbc201a6e59e18:-1382949421,099123cee3f513804915e860ace18edf:-613130955,521fc27dda7d9f0031fbc201a6e59e18:-1382949421,43ee027dd97d9f00e41a56235125cd9e:-1295108954</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_poll_frequency</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_poll_frequency" table="u_aws_config_sqs_integration"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Poll frequency (minutes)</column_label><comments/><create_roles/><default_value>15</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_poll_frequency</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>u_aws_config_sqs_integration</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:11:23</sys_created_on><sys_id>42562d75db3d9f0072465f135e96190e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Poll frequency (minutes)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_aws_config_sqs_integration_u_poll_frequency</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:13:54</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-2077963305</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>952969d8db52db009c69f8231f9619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Poll frequency (minutes)</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>03e6e1b5643d9f0034d411b65506537c</update_guid>
+<update_guid_history>03e6e1b5643d9f0034d411b65506537c:-2077963305,cc91ef8ecaf51380638d1750c5ff1e51:-2094917188,03e6e1b5643d9f0034d411b65506537c:-2077963305,83666d75b13d9f00400f638f39eeac64:425590035,82562d75653d9f0010d1b48fac619416:2015486290</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_2b294861dbfd5f0072465f135e961978</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category"><sys_properties_category action="INSERT_OR_UPDATE"><name>CMP SQS AWS Config</name><sys_class_name>sys_properties_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 14:46:29</sys_created_on><sys_id>2b294861dbfd5f0072465f135e961978</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMP SQS AWS Config</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_2b294861dbfd5f0072465f135e961978</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 14:46:29</sys_updated_on><title/></sys_properties_category><sys_translated_text action="delete_multiple" query="documentkey=2b294861dbfd5f0072465f135e961978"/></record_update>]]></payload>
+<payload_hash>1109709807</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>952969d8db52db009c69f8231f9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>CMP SQS AWS Config</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>f45984619ffd5f0087ae8abb71b822c0</update_guid>
+<update_guid_history>f45984619ffd5f0087ae8abb71b822c0:1109709807,829163ceedf5138055e641e6bc606c76:-1808994461,f45984619ffd5f0087ae8abb71b822c0:1109709807</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_41ce6c69db319f0072465f135e9619e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>41ce6c69db319f0072465f135e9619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_aws_config_sqs_integration">c9ce6c69db319f0072465f135e9619c3</sys_security_acl><sys_update_name>sys_security_acl_role_41ce6c69db319f0072465f135e9619e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><sys_user_role display_value="u_aws_config_sqs_integration_user" name="u_aws_config_sqs_integration_user">64ce2869db319f0072465f135e9619e5</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>2139958076</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>952969d8db52db009c69f8231f9619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>8dce6c69bb319f003c7b207d8cb5fce2</update_guid>
+<update_guid_history>8dce6c69bb319f003c7b207d8cb5fce2:2139958076,e891ef8eaff51380233c57d4fb8eedc0:199018935,8dce6c69bb319f003c7b207d8cb5fce2:2139958076</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_c5ce6c69db319f0072465f135e9619aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cloud Management">78ce6c69db319f0072465f135e9619a8</application><filter/><name>AWS Config SQS Integrations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_aws_config_sqs_integration_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>c5ce6c69db319f0072465f135e9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS Config SQS Integrations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_c5ce6c69db319f0072465f135e9619aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:04</sys_updated_on><table>u_aws_config_sqs_integration</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-895427446</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>95296d5cdb52db009c69f8231f961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integrations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>89ce6c6930319f00db060925f429a9ab</update_guid>
+<update_guid_history>89ce6c6930319f00db060925f429a9ab:-895427446,999163cea4f51380b6e6e5f58131550b:605832755,89ce6c6930319f00db060925f429a9ab:-895427446</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_delete_messages_after_receipt</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_delete_messages_after_receipt" table="u_aws_config_sqs_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Delete messages after receipt&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_delete_messages_after_receipt&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_aws_config_sqs_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:30:04&lt;/sys_created_on&gt;&lt;sys_id&gt;5e6e2869db319f0072465f135e9619de&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete messages after receipt&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_aws_config_sqs_integration_u_delete_messages_after_receipt&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-04-30 17:31:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2098326652</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>992969d8db52db009c69f8231f9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Delete messages after receipt</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e03f24a959319f0036edd349af5817f9</update_guid>
+<update_guid_history>e03f24a959319f0036edd349af5817f9:-2098326652,a781af8eb7f51380534a5593899191de:-2045571097,e03f24a959319f0036edd349af5817f9:-2098326652,7cce6c69eb319f00a7c5ca59a46b1ba1:-1041092729</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_scheduled_job_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_scheduled_job" label="Scheduled job" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_scheduled_job</element><help/><hint/><label>Scheduled job</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Scheduled jobs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-01 16:29:00</sys_created_on><sys_id>c86a6539db3d9f0072465f135e9619c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Scheduled job</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_scheduled_job_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-01 16:29:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-599953309</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>992969d8db52db009c69f8231f9619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Scheduled job</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e86a6539fd3d9f0063db81c71543fbd4</update_guid>
+<update_guid_history>e86a6539fd3d9f0063db81c71543fbd4:-599953309,0381af8ed1f5138044343af4d02f299e:618823411,e86a6539fd3d9f0063db81c71543fbd4:-599953309</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_45ce6c69db319f0072465f135e9619b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_aws_config_sqs_integration</description><name>u_aws_config_sqs_integration</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>45ce6c69db319f0072465f135e9619b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_45ce6c69db319f0072465f135e9619b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1551072489</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>992969d8db52db009c69f8231f9619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cdce6c699a319f0068a52566421228b8</update_guid>
+<update_guid_history>cdce6c699a319f0068a52566421228b8:-1551072489,b491ef8e01f513803ba8eb2b6b187dcb:-574097269,cdce6c699a319f0068a52566421228b8:-1551072489</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_fc4dac29db319f0072465f135e961982</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>AWS Config SQS Integration</label><live_feed_enabled>false</live_feed_enabled><name>u_aws_config_sqs_integration</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:04</sys_created_on><sys_id>fc4dac29db319f0072465f135e961982</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS Config SQS Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_fc4dac29db319f0072465f135e961982</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:04</sys_updated_on><update_access>false</update_access><user_role display_value="u_aws_config_sqs_integration_user" name="u_aws_config_sqs_integration_user">64ce2869db319f0072465f135e9619e5</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>620885466</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>9d2969d8db52db009c69f8231f9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>7dceac6957319f0037d96398e2a65f38</update_guid>
+<update_guid_history>7dceac6957319f0037d96398e2a65f38:620885466,e99163ce88f513802c532c6d4013a13d:1870447078,7dceac6957319f0037d96398e2a65f38:620885466</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_max_requests_per_poll_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_max_requests_per_poll" label="Max requests per poll" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_max_requests_per_poll</element><help/><hint/><label>Max requests per poll</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Max requests per polls</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:06</sys_created_on><sys_id>51ce6c69db319f0072465f135e9619ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Max requests per poll</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_max_requests_per_poll_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1863930503</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>9d2969d8db52db009c69f8231f9619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Max requests per poll</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>69ceac69d9319f00289dc3187a71bb02</update_guid>
+<update_guid_history>69ceac69d9319f00289dc3187a71bb02:1863930503,4781af8e4ff51380e037629f06904e7a:1000413079,69ceac69d9319f00289dc3187a71bb02:1863930503</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_bb4fa4a9db319f0072465f135e9619db</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_aws_config_sqs_integration"&gt;u_max_messages_per_requestVALCHANGES^u_max_messages_per_request&amp;gt;10^ORu_max_messages_per_request&amp;lt;1^EQ&lt;item endquery="false" field="u_max_messages_per_request" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="u_max_messages_per_request" goto="false" newquery="false" operator="&amp;gt;" or="false" value="10"/&gt;&lt;item endquery="false" field="u_max_messages_per_request" goto="false" newquery="false" operator="&amp;lt;" or="true" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Validate Max Messages&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if(current.u_max_messages_per_request&lt;1){
+		current.u_max_messages_per_request = 1;
+		gs.addInfoMessage('Max Messages must be between 1 and 10.  Resetting to 1');
+	}
+	if(current.u_max_messages_per_request&gt;10){
+		current.u_max_messages_per_request = 10;
+		gs.addInfoMessage('Max Messages must be between 1 and 10.  Resetting to 10');
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:37:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bb4fa4a9db319f0072465f135e9619db&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Max Messages&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_bb4fa4a9db319f0072465f135e9619db&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 18:45:56&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bb4fa4a9db319f0072465f135e9619db"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>620669986</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>9d2969d8db52db009c69f8231f9619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Validate Max Messages</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>b1b9ce79d67d9f00794cc09552cbfb61</update_guid>
+<update_guid_history>b1b9ce79d67d9f00794cc09552cbfb61:620669986,1d9123ce62f513808ff23b68957e89f7:-669170116,b1b9ce79d67d9f00794cc09552cbfb61:620669986,aae1e96d3db19f003a4cc0f5d2b414d9:441714246,ee6078a950319f004c723b5e6444c8a5:-483469348</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="u_aws_config_sqs_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;true&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_aws_config_sqs_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:30:03&lt;/sys_created_on&gt;&lt;sys_id&gt;a54dac29db319f0072465f135e96199e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_aws_config_sqs_integration_u_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 16:29:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-945274586</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d12969d8db52db009c69f8231f9619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>609aa539943d9f00565e27efe44c25fc</update_guid>
+<update_guid_history>609aa539943d9f00565e27efe44c25fc:-945274586,3381ef8ea7f51380ce9bceac4f9bfc32:-1020046303,609aa539943d9f00565e27efe44c25fc:-945274586,a8ce6c695f319f00d462bb4f77be287e:-1074006111</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_5b59cc61dbfd5f0072465f135e96190c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="DELETE"><choices/><description>Default AWS Access Key used for SQS integration</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>sn_cmp_custom.sqs_config.accessKey</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 14:47:56</sys_created_on><sys_id>5b59cc61dbfd5f0072465f135e96190c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sn_cmp_custom.sqs_config.accessKey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_5b59cc61dbfd5f0072465f135e96190c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 14:50:53</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=5b59cc61dbfd5f0072465f135e96190c"/></record_update>]]></payload>
+<payload_hash>1128099269</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d12969d8db52db009c69f8231f9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>sn_cmp_custom.sqs_config.accessKey</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>953b44e1e0fd5f006f5ffb985fe86137</update_guid>
+<update_guid_history>953b44e1e0fd5f006f5ffb985fe86137:1128099269,e55a0ca1e1fd5f0045284bfc8b85c8f2:-654488903,c4c984a122fd5f00ebf7f9cae858342c:121385961,8cb980a1b8fd5f006929d6989a409d36:-86366914,92a980a1f3fd5f0008c818ebff105b2f:-274179058</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_01ce6c69db319f0072465f135e9619c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>01ce6c69db319f0072465f135e9619c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_aws_config_sqs_integration">09ce6c69db319f0072465f135e9619bc</sys_security_acl><sys_update_name>sys_security_acl_role_01ce6c69db319f0072465f135e9619c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><sys_user_role display_value="u_aws_config_sqs_integration_user" name="u_aws_config_sqs_integration_user">64ce2869db319f0072465f135e9619e5</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1314715360</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d12969d8db52db009c69f8231f9619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration.u_aws_config_sqs_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>4dce6c695f319f00a5ff552aced690c2</update_guid>
+<update_guid_history>4dce6c695f319f00a5ff552aced690c2:1314715360,7c91ef8edef513809a1dfbe0f43b80cf:-626223781,4dce6c695f319f00a5ff552aced690c2:1314715360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_aws_config_sqs_integration_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_aws_config_sqs_integration" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_name</element><list_id display_value="u_aws_config_sqs_integration" element="NULL" name="u_aws_config_sqs_integration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">aa6f867ddb7d9f0072465f135e961933</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_id>266f867ddb7d9f0072465f135e961934</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_credentials</element><list_id display_value="u_aws_config_sqs_integration" element="NULL" name="u_aws_config_sqs_integration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">aa6f867ddb7d9f0072465f135e961933</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_id>aa6f867ddb7d9f0072465f135e961934</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_region</element><list_id display_value="u_aws_config_sqs_integration" element="NULL" name="u_aws_config_sqs_integration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">aa6f867ddb7d9f0072465f135e961933</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_id>2e6f867ddb7d9f0072465f135e961934</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_sqs_queue_name</element><list_id display_value="u_aws_config_sqs_integration" element="NULL" name="u_aws_config_sqs_integration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">aa6f867ddb7d9f0072465f135e961933</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_id>ae6f867ddb7d9f0072465f135e961934</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_delete_messages_after_receipt</element><list_id display_value="u_aws_config_sqs_integration" element="NULL" name="u_aws_config_sqs_integration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">aa6f867ddb7d9f0072465f135e961933</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_id>226f867ddb7d9f0072465f135e961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_max_messages_per_request</element><list_id display_value="u_aws_config_sqs_integration" element="NULL" name="u_aws_config_sqs_integration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">aa6f867ddb7d9f0072465f135e961933</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_id>a26f867ddb7d9f0072465f135e961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_max_requests_per_poll</element><list_id display_value="u_aws_config_sqs_integration" element="NULL" name="u_aws_config_sqs_integration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">aa6f867ddb7d9f0072465f135e961933</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_id>266f867ddb7d9f0072465f135e961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_aws_config_sqs_integration</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>eric.williams@snc</sys_created_by><sys_created_on>2018-05-01 19:10:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aa6f867ddb7d9f0072465f135e961933</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_aws_config_sqs_integration_null</sys_update_name><sys_updated_by>eric.williams@snc</sys_updated_by><sys_updated_on>2018-05-01 19:10:49</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>1467557770</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d1296d5cdb52db009c69f8231f961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>2a6f867d9b7d9f0078d50772fb3bfc37</update_guid>
+<update_guid_history>2a6f867d9b7d9f0078d50772fb3bfc37:1467557770,5d9123ceddf513806e7d5a59796e3bfc:-1027203114,2a6f867d9b7d9f0078d50772fb3bfc37:1467557770,e3ceec6984319f0050070b63b6f87ac0:-1865071520</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_credentials</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_credentials" table="u_aws_config_sqs_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;AWS Account&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_credentials&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_aws_config_sqs_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="cmdb_ci_cloud_service_account"&gt;cmdb_ci_cloud_service_account&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;datacenter_typeSTARTSWITHcmdb_ci_aws_datacenter^EQ&lt;/reference_qual&gt;&lt;reference_qual_condition table="cmdb_ci_cloud_service_account"&gt;datacenter_typeSTARTSWITHcmdb_ci_aws_datacenter^EQ&lt;item endquery="false" field="datacenter_type" goto="false" newquery="false" operator="STARTSWITH" or="false" value="cmdb_ci_aws_datacenter"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/reference_qual_condition&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 17:30:03&lt;/sys_created_on&gt;&lt;sys_id&gt;76fdac29db319f0072465f135e9619a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;AWS Account&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_aws_config_sqs_integration_u_credentials&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-04-30 17:50:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>928559897</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d52969d8db52db009c69f8231f9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.AWS Account</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6653786d89319f0029c8d49c7e1dd4b5</update_guid>
+<update_guid_history>6653786d89319f0029c8d49c7e1dd4b5:928559897,9f81af8e00f51380a38cc8ff5dce53ca:563586878,6653786d89319f0029c8d49c7e1dd4b5:928559897,1003786db1319f0017ddaeab12b7ea2f:218475557,f7f0b8e946319f0082f69dd4a838e340:-351155999,f4ce6c69cb319f0062d316b306e8e894:-182829656</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_region_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_region" label="Region" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_region</element><help/><hint/><label>Region</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Regions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:06</sys_created_on><sys_id>ddce6c69db319f0072465f135e9619f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Region</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_region_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1766397805</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d52969d8db52db009c69f8231f9619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Region</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f9ceac6943319f0073ea15afc4418a37</update_guid>
+<update_guid_history>f9ceac6943319f0073ea15afc4418a37:1766397805,c381af8e35f51380777a7722f7b94998:375243197,f9ceac6943319f0073ea15afc4418a37:1766397805</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_09ce6c69db319f0072465f135e9619bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_aws_config_sqs_integration</description><name>u_aws_config_sqs_integration</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:05</sys_created_on><sys_id>09ce6c69db319f0072465f135e9619bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_09ce6c69db319f0072465f135e9619bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2076766939</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d52969d8db52db009c69f8231f9619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>u_aws_config_sqs_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>81ce6c69da319f002e02886fdca71cc0</update_guid>
+<update_guid_history>81ce6c69da319f002e02886fdca71cc0:2076766939,fc91ef8e2af5138079a6f4f4ae939dd2:352115535,81ce6c69da319f002e02886fdca71cc0:2076766939</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>discovery_probes_1a535da4db39db0072465f135e961989</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="discovery_probes"><discovery_probes action="INSERT_OR_UPDATE"><cache_results>false</cache_results><classic_mode>false</classic_mode><description/><ecc_queue_name/><ecc_queue_source/><ecc_queue_topic>JavascriptProbe</ecc_queue_topic><host_classification>false</host_classification><major_version>1</major_version><minor_version>0</minor_version><name>AWS-SQS-Config-JS</name><post_processor_script/><script/><sys_class_name>discovery_probes</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-27 17:36:21</sys_created_on><sys_id>1a535da4db39db0072465f135e961989</sys_id><sys_mod_count>3</sys_mod_count><sys_name>AWS-SQS-Config-JS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>discovery_probes_1a535da4db39db0072465f135e961989</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-27 20:31:31</sys_updated_on><type>Java</type><used_by_discovery>false</used_by_discovery><used_by_runbook>false</used_by_runbook></discovery_probes></record_update>]]></payload>
+<payload_hash>1839093577</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d92969d8db52db009c69f8231f9619e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>AWS-SQS-Config-JS</target_name>
+<type>Probe</type>
+<update_domain>global</update_domain>
+<update_guid>f98b75e03db9db0046cfada10fa6089b</update_guid>
+<update_guid_history>f98b75e03db9db0046cfada10fa6089b:1839093577,b59163ce79f51380cd4e90bfa1e25052:-2114441609,f98b75e03db9db0046cfada10fa6089b:1839093577,b16515286539db00d84f1c59c1182bea:-887168015,931419e42e39db00b19824d0835a314b:1047702686,6f6311e4a039db00c5cb82895d10a77e:1560915121</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_bcce6c69db319f0072465f135e9619a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cloud Management">f7c511a2eb752200979aa5115206fe8f</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>AWS Config SQS Integrations</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_aws_config_sqs_integration</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_aws_config_sqs_integration_user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>bcce6c69db319f0072465f135e9619a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS Config SQS Integrations</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_bcce6c69db319f0072465f135e9619a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:04</sys_updated_on><timeline_page/><title>AWS Config SQS Integrations</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1286300977</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d92969d8db52db009c69f8231f9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integrations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>78ce6c6993319f00792562e5015ecaa7</update_guid>
+<update_guid_history>78ce6c6993319f00792562e5015ecaa7:1286300977,bc91ef8ef7f513800aa9c67d68d8a6d8:-2112578222,78ce6c6993319f00792562e5015ecaa7:1286300977</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_aws_config_sqs_integration_u_max_messages_per_request_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_max_messages_per_request" label="Max messages per request" language="en" table="u_aws_config_sqs_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_max_messages_per_request</element><help/><hint/><label>Max messages per request</label><language>en</language><name>u_aws_config_sqs_integration</name><plural>Max messages per requests</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:06</sys_created_on><sys_id>91ce6c69db319f0072465f135e9619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Max messages per request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_aws_config_sqs_integration_u_max_messages_per_request_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1903734063</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d92969d8db52db009c69f8231f9619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.Max messages per request</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f5ceac69fb319f00073ce9a3932cc635</update_guid>
+<update_guid_history>f5ceac69fb319f00073ce9a3932cc635:1903734063,0b81af8e63f51380498a70e5e5c1b674:539477695,f5ceac69fb319f00073ce9a3932cc635:1903734063</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_bad6ad75db3d9f0072465f135e9619d0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_aws_config_sqs_integration"&gt;u_poll_frequencyVALCHANGES^u_poll_frequency&amp;lt;5^EQ&lt;item endquery="false" field="u_poll_frequency" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="u_poll_frequency" goto="false" newquery="false" operator="&amp;lt;" or="false" value="5"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Validate Poll Frequency&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	current.u_poll_frequency = 5;
+	gs.addInfoMessage('Poll frequency must be greater than 5 minutes.  Resetting to 5 minutes');
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-01 16:13:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bad6ad75db3d9f0072465f135e9619d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Poll Frequency&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_bad6ad75db3d9f0072465f135e9619d0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 18:52:15&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bad6ad75db3d9f0072465f135e9619d0"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-406502547</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>d92969d8db52db009c69f8231f9619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Validate Poll Frequency</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>a22b8eb90a7d9f00c7ed6714a0ad2e67</update_guid>
+<update_guid_history>a22b8eb90a7d9f00c7ed6714a0ad2e67:-406502547,c99123ce27f513809c934f1bf65803f1:-131713545,a22b8eb90a7d9f00c7ed6714a0ad2e67:-406502547,4aca4ab90f7d9f009555764ffbd8ed53:-1007038391,83b9ce79a07d9f008840ec05da4e0c67:-993601075,fed6a1b5f63d9f00aa2c4513e5f55652:551851693</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_aws_config_sqs_integration_u_sqs_queue_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_sqs_queue_name" table="u_aws_config_sqs_integration"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>SQS queue name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_sqs_queue_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>u_aws_config_sqs_integration</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 18:56:10</sys_created_on><sys_id>0672c969db719f0072465f135e961968</sys_id><sys_mod_count>1</sys_mod_count><sys_name>SQS queue name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_aws_config_sqs_integration_u_sqs_queue_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 18:56:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1086395999</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>dd2969d8db52db009c69f8231f9619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>AWS Config SQS Integration.SQS queue name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2f920d6955719f00be0f204e7185cbf7</update_guid>
+<update_guid_history>2f920d6955719f00be0f204e7185cbf7:-1086395999,9491ef8eaaf51380d4aba8efb018a799:1217135646,2f920d6955719f00be0f204e7185cbf7:-1086395999,0672c969d2719f008440b80cc5fb97ae:-1723276095</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_385b02f9db7d9f0072465f135e961926</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_aws_config_sqs_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_aws_config_sqs_integration"&gt;u_activeVALCHANGES^EQ&lt;item endquery="false" field="u_active" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Active Flag&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AWSSQSProbeRunner();
+	probeRunner.setJobActiveFlag(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;eric.williams@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-01 18:56:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;385b02f9db7d9f0072465f135e961926&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Active Flag&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_385b02f9db7d9f0072465f135e961926&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;eric.williams@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 18:58:01&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=385b02f9db7d9f0072465f135e961926"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>855156695</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>dd2969d8db52db009c69f8231f9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Update Active Flag</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>037ccaf95f7d9f00fbd0f6b46c9aaf16</update_guid>
+<update_guid_history>037ccaf95f7d9f00fbd0f6b46c9aaf16:855156695,099123ce6ef51380e3a638e653787dd9:199083344,037ccaf95f7d9f00fbd0f6b46c9aaf16:855156695,b56c8af96f7d9f001a7b5c055ffdfdec:-736868298,c73c46f9fc7d9f00ce45c3de348c6221:-485227442</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_4e914169db719f0072465f135e96194d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;true&lt;/form_link&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Run One Time Poll&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var sqsProbeRunner = new AWSSQSProbeRunner();
+var ecc_queue_id = sqsProbeRunner.runProbe(current);
+var returnURL = "ecc_queue_list.do?sysparm_query=sys_id%3D" + ecc_queue_id + "%5EORresponse_to%3D" + ecc_queue_id;
+gs.setRedirect(returnURL);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-04-30 18:53:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4e914169db719f0072465f135e96194d&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Run One Time Poll&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_4e914169db719f0072465f135e96194d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-01 21:11:34&lt;/sys_updated_on&gt;&lt;table&gt;u_aws_config_sqs_integration&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1690617733</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>dd2969d8db52db009c69f8231f9619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table>u_aws_config_sqs_integration</table>
+<target_name>Run One Time Poll</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>870b66796fbd9f0094853424ed9cc124</update_guid>
+<update_guid_history>870b66796fbd9f0094853424ed9cc124:-1690617733,d691a3ce3cf51380237b528e05d94117:-692244729,870b66796fbd9f0094853424ed9cc124:-1690617733,f49a916918b19f0001d4311e689212b9:8229553,4cf955e5ceb19f008527356f8396926b:-1908486509,2c6791e54eb19f00b8f4a686f0e37a5b:-1213767004,513751e581b19f00a4a4450e2497677d:-632149176,c1d1c1693e719f00f6fe248eaeb39d90:1764872971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_41329b06dbf513809c69f8231f961924</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_aws_config_sqs_integration</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-30 17:30:06</sys_created_on><sys_id>41329b06dbf513809c69f8231f961924</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_aws_config_sqs_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_41329b06dbf513809c69f8231f961924</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-30 17:30:06</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>1429935012</payload_hash>
+<remote_update_set display_value="AWS SQS Config Integration v1.2">d52969d8db52db009c69f8231f9619e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 21:04:09</sys_created_on>
+<sys_id>dd296d5cdb52db009c69f8231f961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163226fb7e80000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 21:04:09</sys_updated_on>
+<table/>
+<target_name>u_aws_config_sqs_integration</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>ddce6c691d319f009f1b661cc3a189fa</update_guid>
+<update_guid_history>ddce6c691d319f009f1b661cc3a189fa:1429935012,599163ce31f513808ba062741c9a2400:1813773464,b5329b068bf51380c2df30e0b10700b8:1429935012</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
